@@ -49,7 +49,7 @@ public class ProductServiceController {
 		
 		Product monitor = new Product();
 		monitor.setId("6");
-		monitor.setName("Monitor");
+		monitor.setName("Bildschirm");
 		productRepo.put(monitor.getId(), monitor);
 		
 

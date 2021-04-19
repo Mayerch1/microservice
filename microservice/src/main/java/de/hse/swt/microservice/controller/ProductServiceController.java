@@ -56,6 +56,11 @@ public class ProductServiceController {
 		monitor.setId("7");
 		monitor.setName("FISCH");
 		productRepo.put(monitor.getId(), monitor);
+		
+		Product monitor = new Product();
+		monitor.setId("8");
+		monitor.setName("Delikatesse Fleischwurstsalat (mind. 40% Schweinefleisch)");
+		productRepo.put(monitor.getId(), monitor);
 
 	}
 

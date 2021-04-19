@@ -24,7 +24,7 @@ public class ProductServiceController {
 	static {
 		Product honey = new Product();
 		honey.setId("1");
-		honey.setName("Honey");
+		honey.setName("Honig");
 		productRepo.put(honey.getId(), honey);
 
 		Product almond = new Product();
@@ -39,17 +39,17 @@ public class ProductServiceController {
 		
 		Product beer = new Product();
 		beer.setId("4");
-		beer.setName("Beer");
+		beer.setName("Bier");
 		productRepo.put(beer.getId(), beer);
 		
 		Product wine = new Product();
 		wine.setId("5");
-		wine.setName("Wine");
+		wine.setName("Wein");
 		productRepo.put(wine.getId(), wine);
 		
 		Product monitor = new Product();
 		monitor.setId("6");
-		monitor.setName("Monitorr");
+		monitor.setName("Monitor");
 		productRepo.put(monitor.getId(), monitor);
 		
 

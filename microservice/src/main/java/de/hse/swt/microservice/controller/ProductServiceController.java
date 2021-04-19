@@ -34,7 +34,7 @@ public class ProductServiceController {
 		
 		Product steak = new Product();
 		steak.setId("3");
-		steak.setName("Steak");
+		steak.setName("Fleisch");
 		productRepo.put(steak.getId(), steak);
 		
 		Product beer = new Product();

@@ -29,7 +29,7 @@ public class ProductServiceController {
 
 		Product almond = new Product();
 		almond.setId("2");
-		almond.setName("Almond");
+		almond.setName("Mandeln");
 		productRepo.put(almond.getId(), almond);
 		
 		Product steak = new Product();

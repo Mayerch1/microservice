@@ -52,15 +52,15 @@ public class ProductServiceController {
 		monitor.setName("Monitor");
 		productRepo.put(monitor.getId(), monitor);
 		
-		Product monitor = new Product();
-		monitor.setId("7");
-		monitor.setName("FISCH");
-		productRepo.put(monitor.getId(), monitor);
+		Product fisch = new Product();
+		fisch.setId("7");
+		fisch.setName("FISCH");
+		productRepo.put(fisch.getId(), fisch);
 		
-		Product monitor = new Product();
-		monitor.setId("8");
-		monitor.setName("Delikatesse Fleischwurstsalat (mind. 40% Schweinefleisch).");
-		productRepo.put(monitor.getId(), monitor);
+		Product wurstsalat = new Product();
+		wurstsalat.setId("8");
+		wurstsalat.setName("Delikatesse Fleischwurstsalat (mind. 40% Schweinefleisch).");
+		productRepo.put(wurstsalat.getId(), wurstsalat);
 
 	}
 
